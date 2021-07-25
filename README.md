@@ -1,1 +1,1 @@
-https://malinium.github.io/rsschool-cv/cv
+https://malinium.github.io/rsschool-cv

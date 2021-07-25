@@ -24,7 +24,7 @@ body{
   width: 20%;
   height: 100%;
   border: 2px solid #e8e8e8;
-  background: url('../images/1.jpg') no-repeat center center / cover;
+  background: url('images/1.jpg') no-repeat center center / cover;
 }
 
 .title-block{

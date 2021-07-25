@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+  padding: 100px 0px;
+  font-family: 'Raleway', sans-serif;
+  background: url(https://images.freeimages.com/images/large-previews/a3b/website-rays-background-pattern-1637863.png)
+}
+
+.container{
+  width: 900px;
+  min-height: 900px;
+  border: 10px solid #ffffff;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.header{
+  display: flex;
+  height: 200px;
+}
+
+.userpic{
+  display:flex;
+  width: 20%;
+  height: 100%;
+  border: 2px solid #e8e8e8;
+  background: url('/images/1.jpg') no-repeat center center / cover;
+}
+
+.title-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; 
+  Height: 100%;
+  border: 2px solid #e8e8e8;
+  font-size: 30px;
+  background: url('https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80') no-repeat center center / cover;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.nav ul{
+  display: flex;
+  background: #e8e8e8;
+}
+
+.nav li{
+display: inline-block;
+
+}
+
+.nav li a{
+  padding: 30px;
+  display: flex;
+  text-decoration: none;
+  color:rgb(65, 62, 62);
+  font-weight: bold;
+  border-right: 1px solid rgb(252, 252, 252);
+}
+
+.nav li a:hover{
+  background:rgb(247, 244, 244); 
+}
+
+.content-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.aside{
+  display: flex;
+  border: 2px solid #e8e8e8;
+  padding: 10px;
+  width: 20%;
+}
+
+.main{
+padding: 10px;
+width: 80%;
+font-size: 20px;
+}
+
+.footer{
+  font-size: 18px;
+  font-weight:400;
+
+}
